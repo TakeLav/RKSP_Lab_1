@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Pacifico", cursive;
+}
+.main{
+    width: 100%;
+    background-image: url("1.jpg");
+    background-size: 100% auto;
+    background-repeat: repeat;
+    color: #0000FF; 
+}
+.title{
+    width: calc(100% - 10%); 
+    text-align: center;
+    position: relative;
+}
+.title2{
+    width: calc(100% - 10%); 
+}
+
+.content{
+    width: calc(100% - 10%);
+    position: relative;
+    top: 40px;
+    line-height: 1.61; 
+}
+.title h1{
+    font-size: 100px;
+}
+
+.title2 h2{
+    font-size: 75px;
+}
+.main p{
+    font-size: 50px;
+}
+  
+.main .image img{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 0px;
+    right: 150px;
+}
+
+.main .image1 img{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 0px;
+    left: 150px;
+    transform: rotate(30deg);;
+}
+
+.list{
+    font-size: 50px;
+    line-height: 1.61;
+    
+}
+.list1 ul{
+    font-weight: 100
+}
+.list2 ul{
+    font-weight: 200
+}
+.list3 ul{
+    font-weight: 900
+}
+
+
+label {
+    display: block;
+}
+
+
+button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    background-color: #007BFF;
+    color: white;
+
+}
+
